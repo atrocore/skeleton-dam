@@ -1,0 +1,60 @@
+{
+    "dashlets": {
+        "ProductsByTag": "Produkte nach Tag",
+        "ProductTypes": "Produkt typen",
+        "ProductStatusOverview": "Produktstatus Übersicht"
+    },
+    "labels": {
+        "Add Group": "Gruppe hinzufügen",
+        "Expand": "Erweitern",
+        "Manage Categories": "Kategorien verwalten",
+        "Manage Folders": "Ordner verwalten",
+        "New notifications": "Neue Benachrichtigungen",
+        "Return to Application": "Zurück zur Anwendung",
+        "you": "sie"
+    },
+    "messages": {
+        "fieldIsUploading": "Hochladen läuft",
+        "fieldMaxFileSizeError": "Datei sollte nicht überschreiten {max} Mb",
+        "internalPostTitle": "Post wird nur von internen Benutzern angezeigt",
+        "loading": "Wird geladen...",
+        "saving": "Sparen...",
+        "clickToRefresh": "Klicken um zu aktualisieren"
+    },
+    "options": {
+        "varcharSearchRanges": {
+            "equals": "Gleich",
+            "like": "Teilsuche (%)",
+            "notLike": "Ist nicht wie (%)",
+            "startsWith": "Beginnt mit",
+            "endsWith": "Endet mit",
+            "contains": "Enthält",
+            "notContains": "Nicht Enthält",
+            "isEmpty": "Ist leer",
+            "isNotEmpty": "Ist nicht leer",
+            "notEquals": "Nicht gleich"
+        }
+    },
+    "scopeNames": {
+        "AttributeGroup": "Attributgruppe",
+        "AssociatedProduct": "Zugehörige Produkte",
+        "Attribute": "Attribut",
+        "Currency": "Währung",
+        "Catalog": "Kataloge",
+        "Product": "Produkte",
+        "ProductFamily": "Produktfamilien"
+    },
+    "scopeNamesPlural": {
+        "ActionHistoryRecord": "Aktionsgeschichte",
+        "Attribute": "Attribut",
+        "Currency": "Währung",
+        "Dashboard": "Instrumententafel",
+        "EmailAddress": "E-Mail Addresse",
+        "Catalog": "Kataloge",
+        "Product": "Produkte",
+        "ProductFamily": "Produktfamilien"
+    },
+    "navMenuDelimiters": {
+        "_delimiter_393f8383": "Artikel"
+    }
+}

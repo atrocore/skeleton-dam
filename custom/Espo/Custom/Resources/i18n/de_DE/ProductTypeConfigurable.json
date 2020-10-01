@@ -1,0 +1,13 @@
+{
+    "labels": {
+        "Create ProductTypeConfigurable": "Produkttyp konfigurierbar erstellen"
+    },
+    "fields": {
+        "configurableProduct": "konfigurierbares Produkt",
+        "product": "Produkt"
+    },
+    "links": {
+        "configurableProduct": "konfigurierbares Produkt",
+        "product": "Produkt"
+    }
+}

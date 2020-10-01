@@ -1,0 +1,12 @@
+[
+    "isActive",
+    "category",
+    "createdAt",
+    "createdBy",
+    "currencies",
+    "locales",
+    "modifiedAt",
+    "modifiedBy",
+    "orders",
+    "pricings"
+]

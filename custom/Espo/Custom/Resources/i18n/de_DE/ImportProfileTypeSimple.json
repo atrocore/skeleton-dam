@@ -1,0 +1,14 @@
+{
+    "fields": {
+        "entity": "Entität"
+    },
+    "links": {
+        "importProfile": "Importprofil"
+    },
+    "options": {
+        "entity": {
+            "Product": "Produkt",
+            "Order": "Bestellung"
+        }
+    }
+}

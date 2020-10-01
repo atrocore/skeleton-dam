@@ -1,0 +1,52 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "isActive"
+                },
+                {
+                    "name": "code"
+                }
+            ],
+            [
+                {
+                    "name": "name"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "nameEnUs"
+                },
+                {
+                    "name": "nameDeDe"
+                }
+            ],
+            [
+                {
+                    "name": "currencies"
+                },
+                {
+                    "name": "locales"
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "descriptionEnUs"
+                },
+                {
+                    "name": "descriptionDeDe"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

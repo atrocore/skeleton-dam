@@ -1,0 +1,16 @@
+[
+    "channel",
+    "comment",
+    "contact",
+    "createdAt",
+    "createdBy",
+    "currency",
+    "modifiedAt",
+    "modifiedBy",
+    "name",
+    "orderProducts",
+    "orderShippings",
+    "orderStatus",
+    "totalPrice",
+    "totalQuantity"
+]

@@ -1,0 +1,11 @@
+{
+    "links": {
+        "product": "Produkt"
+    },
+    "labels": {
+        "Create SupplierProduct": "Lieferantenprodukt erstellen"
+    },
+    "fields": {
+        "product": "Produkt"
+    }
+}

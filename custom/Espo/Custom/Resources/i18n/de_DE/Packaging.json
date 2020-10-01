@@ -1,0 +1,13 @@
+{
+    "fields": {
+        "createdAt": "erstellt am",
+        "createdBy": "erstellt von",
+        "isActive": "Aktiv",
+        "modifiedAt": "geändert am",
+        "modifiedBy": "geändert von"
+    },
+    "links": {
+        "createdBy": "erstellt von",
+        "modifiedBy": "geändert von"
+    }
+}

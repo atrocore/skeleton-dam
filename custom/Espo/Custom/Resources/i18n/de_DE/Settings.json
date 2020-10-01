@@ -1,0 +1,12 @@
+{
+    "fields": {
+        "aclAllowDeleteCreated": "Allow to remove created records",
+        "isMultilangActive": "Фktiv"
+    },
+    "labels": {
+        "Admin Notifications": "Admin Notifications"
+    },
+    "tooltips": {
+        "aclAllowDeleteCreated": "Users will be able to remove records they created even if they don't have a delete access."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "collection": {
+        "sortBy": "assignedUser",
+        "asc": false,
+        "textFilterFields": [
+            "name"
+        ],
+        "fullTextSearch": false
+    }
+}

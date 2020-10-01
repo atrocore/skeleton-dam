@@ -1,0 +1,10 @@
+{
+    "collection": {
+        "sortBy": "createdAt",
+        "asc": false,
+        "textFilterFields": [
+            "name"
+        ],
+        "fullTextSearch": false
+    }
+}

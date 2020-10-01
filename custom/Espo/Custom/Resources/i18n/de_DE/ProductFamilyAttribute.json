@@ -1,0 +1,13 @@
+{
+    "fields": {
+        "isMultiChannel": "ist Multichannel",
+        "isRequired": "ist erforderlich",
+        "productFamily": "Produktfamilie"
+    },
+    "labels": {
+        "Create ProductFamilyAttribute": "Attribut der Produktfamilie erstellen"
+    },
+    "links": {
+        "productFamily": "Produktfamilie"
+    }
+}

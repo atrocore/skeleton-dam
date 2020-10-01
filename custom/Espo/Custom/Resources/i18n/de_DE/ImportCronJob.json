@@ -1,0 +1,23 @@
+{
+    "fields": {
+        "createdAt": "erstellt am",
+        "createdBy": "erstellt von",
+        "importProfile": "Importprofil",
+        "isActive": "Ist aktiv",
+        "modifiedAt": "geändert am",
+        "modifiedBy": "geändert von",
+        "scheduling": "Planung",
+        "link": "Link"
+    },
+    "labels": {
+        "Create ImportCronJob": "Import des Cronjobs erstellen"
+    },
+    "links": {
+        "createdBy": "erstellt von",
+        "importProfile": "Importprofil",
+        "modifiedBy": "geändert von"
+    },
+    "tooltips": {
+        "scheduling": "Planung"
+    }
+}

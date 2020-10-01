@@ -1,0 +1,20 @@
+{
+    "progressStatus": {
+        "success": "erfolgreich",
+        "new": "neu",
+        "in_progress": "in Arbeit"
+    },
+    "fields": {
+        "progress": "Arbeit"
+    },
+    "labels": {
+        "cancel": "abbrechen",
+        "close": "schließen",
+        "download": "herunterladen",
+        "progressManager": "Fortschrittsmanager"
+    },
+    "notificationMessages": {
+        "error": "%  ist fehlgeschlagen",
+        "success": "%  wurde erfolgreich abgeschlossen"
+    }
+}

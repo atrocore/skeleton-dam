@@ -1,0 +1,11 @@
+{
+    "hasAssignedUser": false,
+    "hasTeam": false,
+    "hasOwner": false,
+    "hasActivities": false,
+    "hasTasks": false,
+    "hasCompleteness": false,
+    "stream": false,
+    "disabled": false,
+    "statusField": null
+}

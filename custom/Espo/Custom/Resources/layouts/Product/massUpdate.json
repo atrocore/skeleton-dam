@@ -1,0 +1,17 @@
+[
+    "isActive",
+    "brand",
+    "catalog",
+    "ean",
+    "mpn",
+    "name",
+    "packaging",
+    "productFamily",
+    "price",
+    "productStatus",
+    "tag",
+    "tax",
+    "uvp",
+    "assignedUser",
+    "ownerUser"
+]

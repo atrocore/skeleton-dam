@@ -1,0 +1,34 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "isActive"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "value"
+                }
+            ],
+            [
+                {
+                    "name": "nameDeDe"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "nameEnUs"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

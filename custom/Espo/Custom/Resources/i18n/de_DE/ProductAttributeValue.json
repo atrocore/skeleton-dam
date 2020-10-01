@@ -1,0 +1,16 @@
+{
+    "custom": {
+        "Attribute": "Attribut"
+    },
+    "fields": {
+        "product": "Produkt",
+        "productAttribute": "Produktattribut"
+    },
+    "labels": {
+        "Create ProductAttributeValue": "Wert der Produktattribut erstellen"
+    },
+    "links": {
+        "product": "Produkt",
+        "productAttribute": "Produktattribut"
+    }
+}

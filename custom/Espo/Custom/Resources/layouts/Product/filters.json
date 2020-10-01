@@ -1,0 +1,20 @@
+[
+    "isActive",
+    "amount",
+    "type",
+    "catalog",
+    "channels",
+    "brand",
+    "ean",
+    "mpn",
+    "packaging",
+    "finalPrice",
+    "productSerie",
+    "productStatus",
+    "productFamily",
+    "price",
+    "sku",
+    "tag",
+    "tax",
+    "uvp"
+]

@@ -1,0 +1,10 @@
+[
+    "isActive",
+    "createdAt",
+    "createdBy",
+    "description",
+    "modifiedAt",
+    "modifiedBy",
+    "name",
+    "price"
+]

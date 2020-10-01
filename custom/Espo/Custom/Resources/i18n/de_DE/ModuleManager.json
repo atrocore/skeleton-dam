@@ -1,0 +1,62 @@
+{
+    "fields": {
+        "availableVersions": "Verfügbare Versionen",
+        "currentVersion": "Aktuelle Version",
+        "isActive": "Aktiv",
+        "required": "Erforderlich"
+    },
+    "labels": {
+        "anotherActionInProgress": "ein anderes Workflow ist gerade in Arbeit. Warten Sie bitte ab, bis dieses abgeschlossen ist",
+        "available": "verfügbar",
+        "canceled": "abgebrochen",
+        "canceling": "stornieren...",
+        "dependencies": "abhängigkeiten",
+        "failed": "die Aktualisierung des Moduls ist fehlgeschlagen. Weitere Informationen finden Sie in dem Protokoll",
+        "installModule": "das Modul installieren",
+        "Log": "Protokoll",
+        "removeModule": "Modul löschen",
+        "Run Update": "das Update starten",
+        "settingModuleForInstalling": "Einstellung des Moduls für die Installation",
+        "settingModuleForRemoving": "Einstellung des Moduls für das Entfernen",
+        "settingModuleForUpdating": "Einstellung des Modul für die Aktualisierung",
+        "settingsText": "Sie müssen registriert sein, um TreoPIM Module installieren oder aktualisieren zu können...",
+        "updated": "wurde aktualisiert. Die Seite wird in {value} Sekunden neu geladen",
+        "updateModule": "das Modul aktualisieren",
+        "updating": "wird aktualisiert...",
+        "username": "Benutzername",
+        "settedModuleForInstalling": "Das Modul wurde für die Installation eingerichtet",
+        "settedModuleForRemoving": "Das Modul wurde zum Entfernen eingerichtet",
+        "settedModuleForUpdating": "Das Modul wurde für die Aktualisierung eingerichtet",
+        "Store": "Shop"
+    },
+    "messages": {
+        "Module '<strong>%s</strong>' (%s) installed successfully. <a href=\"/#ModuleManager/list\">Details</a>": "Modul <strong>%s</strong>' (%s) erfolgreich installiert. <a href=\"/#ModuleManager/list\">Einzelheiten</a>",
+        "Module '<strong>%s</strong>' deleted successfully. <a href=\"/#ModuleManager/list\">Details</a>": "Das Modul <strong>%s</strong>' wurde erfolgreich gelöscht. <a href=\"/#ModuleManager/list\">Einzelheiten</a>",
+        "Module '<strong>%s</strong>' deactivated successfully. <a href=\"/#ModuleManager/list\">Details</a>": "Das Modul '<strong>%s</strong>' erfolgreich deaktiviert. <a href=\"/#ModuleManager/list\">Einzelheiten</a>",
+        "Module '<strong>%s</strong>' activated successfully. <a href=\"/#ModuleManager/list\">Details</a>": "Das Modul '<strong>%s</strong>' erfolgreich aktiviert. <a href=\"/#ModuleManager/list\">Einzelheiten</a>"
+    },
+    "moduleNames": {
+        "ActivitiesTasks": "Termin- und Aufgabenverwaltung",
+        "ColoredFields": "farbiges Auswahl- und Mehrfachauswahlfeld",
+        "Export": "Exportprofil",
+        "Import": "Importprofil",
+        "NavMenu": "zweistufige Navigation"
+    },
+    "options": {
+        "status": {
+            "install": "installieren",
+            "update": "aktualisieren",
+            "delete": "löschen"
+        }
+    },
+    "exceptions": {
+        "Version in invalid": "Version ist ungültig",
+        "hasRequireds": "Das Modul hat die Anforderungen nicht erfüllt"
+    },
+    "moduleDescriptions": {
+        "Export": "benutzerfreundlicher Mechanismus für Datenexport",
+        "Import": "benutzerfreundlicher Mechanismus für Datenimport",
+        "NavMenu": "zweistufige Navigation für TreoCRM",
+        "Revisions": "das Modul stellt benutzerfreundliche Interfaces die Ansicht von geänderten Entity-Feldern mit der Möglichkeit, die Grundwerte wiederherzustellen."
+    }
+}

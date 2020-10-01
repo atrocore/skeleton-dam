@@ -1,0 +1,29 @@
+{
+  "name": "atrocore/skeleton-dam",
+  "description": "Skeleton for AtroDAM",
+  "homepage": "https://atrodam.com",
+  "minimum-stability": "stable",
+  "require": {
+    "atrocore/core": "~1.0.0",
+    "atrocore/pim": "~1.0.0",
+    "atrocore/dam": "~1.0.0"
+  },
+  "scripts": {
+    "pre-update-cmd": "ComposerCmd::preUpdate",
+    "post-update-cmd": "ComposerCmd::postUpdate",
+    "post-package-install": "ComposerCmd::postPackageInstall",
+    "post-package-update": "ComposerCmd::postPackageUpdate",
+    "pre-package-uninstall": "ComposerCmd::prePackageUninstall"
+  },
+  "autoload": {
+    "classmap": [
+      "composer-cmd.php"
+    ]
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.atrocore.com/packages.json?id=common"
+    }
+  ]
+}

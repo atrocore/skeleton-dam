@@ -1,0 +1,96 @@
+{
+    "navMenuDelimiters": {
+        "_delimiter_377f478e": "Attribute",
+        "_delimiter_393f8383": "Product",
+        "_delimiter_9707ec0a": "Price",
+        "_delimiter_8d96610c": "Import",
+        "_delimiter_0e884d8b": "Export",
+        "Attribute": "Attributes",
+        "Product": "Product",
+        "Import": "Import",
+        "DAM": "DAM",
+        "Attributes": "Attributes",
+        "Products": "Products",
+        "Activity": "Activity"
+    },
+    "scopeNames": {
+        "Product": "Product",
+        "Account": "Account",
+        "Attribute": "Attribute",
+        "Catalog": "Catalog",
+        "Category": "Category",
+        "Channel": "Channel",
+        "AssociatedProduct": "Associated Product",
+        "Association": "Association",
+        "AttributeGroup": "Attribute Group",
+        "Brand": "Brand",
+        "ProductFamily": "Product Family",
+        "CategoryImage": "Category Image",
+        "ProductImage": "Product Image",
+        "Country": "Country",
+        "DocumentFolder": "Document Folder",
+        "EmailTemplateCategory": "Email Template Categories",
+        "KnowledgeBaseCategory": "Knowledge Base Category",
+        "MeasuringUnit": "Measuring Unit",
+        "Packaging": "Packaging",
+        "Tax": "Tax",
+        "Template": "Template",
+        "ProductSerie": "Product Serie"
+    },
+    "scopeNamesPlural": {
+        "Product": "Products",
+        "Account": "Accounts",
+        "Attribute": "Attributes",
+        "Catalog": "Catalogs",
+        "Category": "Categories",
+        "Channel": "Channels",
+        "AssociatedProduct": "Associated Products",
+        "Association": "Associations",
+        "AttributeGroup": "Attribute Groups",
+        "Brand": "Brands",
+        "ProductFamily": "Product Families",
+        "CategoryImage": "Category Images",
+        "ProductImage": "Product Images",
+        "Country": "Countries",
+        "DocumentFolder": "Document Folders",
+        "EmailTemplateCategory": "Email Template Categories",
+        "KnowledgeBaseCategory": "Knowledge Base Categories",
+        "MeasuringUnit": "Measuring Units",
+        "Packaging": "Packagings",
+        "Tax": "Taxes",
+        "Template": "Templates",
+        "ProductSerie": "Product Series"
+    },
+    "unit Length": {
+        "mm": "mm",
+        "cm": "cm",
+        "dm": "dm",
+        "m": "m",
+        "km": "km",
+        "\"": "\"",
+        "inch": "inch"
+    },
+    "measure": {
+        "Long intervals of time": "Long intervals of time"
+    },
+    "unit Long intervals of time": {
+        "Year": "Year",
+        "Month": "Month",
+        "Week": "Week",
+        "Day": "Day",
+        "year": "year",
+        "month": "month",
+        "week": "week",
+        "day": "day"
+    },
+    "unit Electric Current": {
+        "A": "A",
+        "W": "W"
+    },
+    "unit Mass": {
+        "mg": "mg",
+        "g": "g",
+        "kg": "kg",
+        "ounces": "ounces"
+    }
+}
