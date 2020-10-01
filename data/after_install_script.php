@@ -17,15 +17,6 @@ $config->set('inputLanguageList', ['de_DE', 'en_US']);
 $config->set('globalSearchEntityList', []);
 $config->set(
     'tabList', [
-        'Association',
-        'Attribute',
-        'AttributeGroup',
-        'Brand',
-        'Catalog',
-        'Category',
-        'Channel',
-        'Product',
-        'ProductFamily',
         'Asset',
         'AssetCategory',
         'Collection',
@@ -36,15 +27,6 @@ $config->set(
 );
 $config->set(
     'quickCreateList', [
-        'Association',
-        'Attribute',
-        'AttributeGroup',
-        'Brand',
-        'Category',
-        'Channel',
-        'Product',
-        'ProductFamily',
-        'Catalog',
         'Asset',
         'AssetCategory',
         'Collection'
@@ -148,7 +130,6 @@ $config->save();
 $data = json_decode(file_get_contents('composer.json'), true);
 
 // prepare
-$data['require']['atrocore/pim'] = '*';
 $data['require']['atrocore/dam'] = '*';
 
 // save new composer data
