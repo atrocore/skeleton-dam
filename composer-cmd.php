@@ -7,11 +7,14 @@ use Treo\Core\Utils\Util;
 /**
  * Class ComposerCmd
  *
- * @author r.ratsun@gmail.com
+ * @author r.ratsun <r.ratsun@gmail.com>
  */
 class ComposerCmd
 {
     const DIFF_PATH = 'data/composer-diff';
+    const IS_INSTALLING_FILE = 'first_update.log';
+    const DEMO_DATA_URL = 'https://demo-source.atropim.com';
+    const DEMO_DATA_ZIP = 'demo-data.zip';
 
     /**
      * Before update
@@ -37,6 +40,9 @@ class ComposerCmd
 
         // autoload
         require_once 'vendor/autoload.php';
+
+        // get demo data if it needs
+        self::getDemoData();
 
         // run post update actions
         (new PostUpdate())->run();
@@ -138,5 +144,33 @@ class ComposerCmd
         file_put_contents("$dirPath/{$data['extra']['treoId']}.txt", $content);
 
         return true;
+    }
+
+    /**
+     * Get demo data if it needs
+     */
+    private static function getDemoData()
+    {
+        if (file_exists(self::IS_INSTALLING_FILE)) {
+            $content = @file_get_contents(self::DEMO_DATA_URL . '/' . self::DEMO_DATA_ZIP);
+            if (!empty($content)) {
+                file_put_contents(self::DEMO_DATA_ZIP, $content);
+                $zip = new \ZipArchive();
+                if ($zip->open(self::DEMO_DATA_ZIP) === true) {
+                    $zip->extractTo('.');
+                    $zip->close();
+                }
+                unlink(self::DEMO_DATA_ZIP);
+
+                // copy
+                exec('cp -r skeleton-tmp/. .');
+
+                // remove
+                exec('rm -R skeleton-tmp');
+
+                // unlink installing file
+                unlink(self::IS_INSTALLING_FILE);
+            }
+        }
     }
 }
