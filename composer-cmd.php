@@ -6,8 +6,6 @@ use Treo\Core\Utils\Util;
 
 /**
  * Class ComposerCmd
- *
- * @author r.ratsun <r.ratsun@gmail.com>
  */
 class ComposerCmd
 {
