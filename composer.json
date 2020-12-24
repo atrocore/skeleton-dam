@@ -5,7 +5,7 @@
   "minimum-stability": "stable",
   "require": {
     "atrocore/core": "~1.0.0",
-    "atrocore/dam": "~1.0.0"
+    "atrocore/dam": "*"
   },
   "scripts": {
     "pre-update-cmd": "ComposerCmd::preUpdate",
