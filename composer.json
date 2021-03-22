@@ -7,18 +7,6 @@
     "atrocore/core": "*",
     "atrocore/dam": "*"
   },
-  "scripts": {
-    "pre-update-cmd": "ComposerCmd::preUpdate",
-    "post-update-cmd": "ComposerCmd::postUpdate",
-    "post-package-install": "ComposerCmd::postPackageInstall",
-    "post-package-update": "ComposerCmd::postPackageUpdate",
-    "pre-package-uninstall": "ComposerCmd::prePackageUninstall"
-  },
-  "autoload": {
-    "classmap": [
-      "composer-cmd.php"
-    ]
-  },
   "repositories": [
     {
       "type": "composer",
