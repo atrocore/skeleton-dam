@@ -6,11 +6,5 @@
   "require": {
     "atrocore/core": "*",
     "atrocore/dam": "*"
-  },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://packagist.atrocore.com/packages.json?id=common"
-    }
-  ]
+  }
 }
