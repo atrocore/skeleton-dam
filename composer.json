@@ -4,7 +4,6 @@
   "homepage": "https://atrodam.com",
   "minimum-stability": "stable",
   "require": {
-    "atrocore/core": "*",
-    "atrocore/dam": "*"
+    "atrocore/core": "*"
   }
 }
